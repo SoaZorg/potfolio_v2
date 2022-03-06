@@ -93,6 +93,7 @@ header{
     display: flex;
     justify-content: space-between;
     display: block;
+    font-size: 1.05rem;
 }
 
 .main-menu a{
@@ -140,9 +141,10 @@ header{
 }
 
 #nom_prenom{
-    font-size: 2rem;
-    font-family: 'Archivo', sans-serif;
-    font
+    font-size: 3rem;
+    font-family: basic-sans, sans-serif;
+    font-weight: bold;
+    font-style: normal;
 }
 
 .icon img{
@@ -163,6 +165,7 @@ header{
     writing-mode: vertical-lr;
     transform: rotate(180deg);
     position: absolute;
+    box-shadow: 0 8px 32px 0 rgba( 16, 61, 82, 0.37 );
 }
 
 
@@ -173,6 +176,7 @@ header{
     grid-template-columns: repeat(2,1fr);
     row-gap: 1rem;
     padding: 0;
+    margin-top: 2rem;
 }
 
 .gallery  figure  img, .gallery  figure  video {
@@ -191,16 +195,22 @@ text-align: center;
     position: relative;
 }
 
+
+.gallery  figcaption{
+    color: #7f4141;
+    margin: 0.75rem 0;
+}
+
 /* footer */
 
 footer{
     background-color: var(--bleu-foncé);
     margin-bottom: 0;
-    margin-top: 40px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    margin-top: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     position: relative;
-    padding-bottom: 5px;
+    
   }
 
   .arrow-up{
