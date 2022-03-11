@@ -13,6 +13,13 @@
   scroll-behavior: smooth;
 }
 
+ 
+#active_link{
+	background: -webkit-linear-gradient(var(--bordeau), var(--rose));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  }
+
 /* navigation */
 
 .topbar {

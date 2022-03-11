@@ -14,6 +14,13 @@
 	scroll-behavior: smooth;
   }
 
+   
+  #active_link{
+	background: -webkit-linear-gradient(var(--bordeau), var(--rose));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  }
+
 
  /* navigation */
 
@@ -121,29 +128,18 @@ a:hover{
 body{
 	background-color: #FAE1D0;
 background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 2 1'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='1' gradientTransform='rotate(0,0.5,0.5)'%3E%3Cstop offset='0' stop-color='%23FAE1D0'/%3E%3Cstop offset='1' stop-color='%239BB7FB'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='0' y2='1' gradientTransform='rotate(96,0.5,0.5)'%3E%3Cstop offset='0' stop-color='%23FFADD7' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23FFADD7' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='c' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='2' y2='2' gradientTransform='rotate(266,0.5,0.5)'%3E%3Cstop offset='0' stop-color='%23FFADD7' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23FFADD7' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='2' height='1'/%3E%3Cg fill-opacity='0.41'%3E%3Cpolygon fill='url(%23b)' points='0 1 0 0 2 0'/%3E%3Cpolygon fill='url(%23c)' points='2 1 2 0 0 0'/%3E%3C/g%3E%3C/svg%3E");
-background-attachment: fixed;
 background-size: cover;
 	margin: 0;
 }
 
-.cadre_cv{
-	display: flex;
-	width: 70%;
-	margin: auto;
-	margin-top: 1em;
-	margin-bottom: 1em;
-	padding-right: 20px;
-	padding-left: 20px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	background-color: rgba(87, 87, 87);
-	border-radius: 3px;
-
-}
 
 #CV{
 	display: flex;
 	margin-left: auto;
 	margin-right: auto;
-	height: 190vh
+	height: 190vh;
+	border: solid 1rem rgba(87, 87, 87);
+	border-radius: 3px;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
 }
