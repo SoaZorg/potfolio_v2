@@ -168,8 +168,8 @@ a:hover {
   height: 50%;
   margin: auto;
   line-height: 150%;
-  font-family: farsan;
-  font-size: 150%;
+  font-family: "farsan", sans-serif;
+  font-size: 140%;
   background: rgba(255, 255, 255, 0.2);
   box-shadow: 0 8px 32px 0 rgb(16 61 82 / 37%);
   backdrop-filter: blur(5.5px);
