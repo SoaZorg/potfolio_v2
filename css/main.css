@@ -316,30 +316,28 @@
 
   
 
-@media (min-width: 0px) {
+@media only screen and (min-width: 0px) {
 
-  .gallery_part,
-  footer {
-    display: none;
+    .gallery_part,
+    footer {
+      display: none;
+    }
+
+    .info-phone{
+      display: block;
+      font-size: 14px;
+      line-height:normal;
+    }
   }
 
-  .info-phone{
-    display: block;
-    font-size: 14px;
-    line-height:normal;
-  }
-  }
-
-  @media (min-width: 1449px) {
+  @media only screen and (min-width: 1449px) {
 
     .gallery_part,
     footer {
       display: block;
     }
 
-    .info_phone{
-      display: none !important;
-      visibility: hidden !important;
-      opacity: 0;
+    .info-phone{
+      display: none;
     }
   }
